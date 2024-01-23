@@ -1,0 +1,8 @@
+uuid: c373f9a0-a419-4a94-a007-1556038f02ac
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Community'
+vid: digitalia_muni_community
+description: ''
+weight: 0

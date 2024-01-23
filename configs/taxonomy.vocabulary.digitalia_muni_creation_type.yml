@@ -1,0 +1,8 @@
+uuid: 621d035e-ad3a-4e94-8725-a6b49bd3705f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Creation type'
+vid: digitalia_muni_creation_type
+description: ''
+weight: 0

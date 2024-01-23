@@ -1,0 +1,8 @@
+uuid: 9b9bb7e3-284b-46ea-b4f9-2506680739d2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Hobby'
+vid: digitalia_muni_hobby
+description: ''
+weight: 0

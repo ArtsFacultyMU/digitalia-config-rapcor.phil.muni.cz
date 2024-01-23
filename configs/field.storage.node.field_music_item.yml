@@ -1,0 +1,42 @@
+uuid: 8b765281-d3ec-484e-88f0-3d17bc7b1dd3
+langcode: en
+status: true
+dependencies:
+  module:
+    - datafield
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_music_item
+field_name: field_music_item
+entity_type: node
+type: data_field
+settings:
+  columns:
+    item:
+      name: item
+      type: entity_reference
+      max_length: '255'
+      size: normal
+      precision: '10'
+      scale: '2'
+      datetime_type: date
+      unsigned: 0
+    list:
+      name: list
+      type: integer
+      max_length: '255'
+      size: normal
+      precision: '10'
+      scale: '2'
+      datetime_type: date
+      unsigned: 0
+module: datafield
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

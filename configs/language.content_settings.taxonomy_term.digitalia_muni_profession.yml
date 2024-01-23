@@ -1,0 +1,11 @@
+uuid: 4905201a-5a4a-4a10-8393-64b1be7b3725
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.digitalia_muni_profession
+id: taxonomy_term.digitalia_muni_profession
+target_entity_type_id: taxonomy_term
+target_bundle: digitalia_muni_profession
+default_langcode: site_default
+language_alterable: false

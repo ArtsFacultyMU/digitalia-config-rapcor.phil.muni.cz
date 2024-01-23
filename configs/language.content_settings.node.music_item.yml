@@ -1,0 +1,11 @@
+uuid: fc16f66d-e240-461d-82f2-e40239c3feee
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.music_item
+id: node.music_item
+target_entity_type_id: node
+target_bundle: music_item
+default_langcode: site_default
+language_alterable: false

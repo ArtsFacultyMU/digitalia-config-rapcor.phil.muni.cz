@@ -1,0 +1,29 @@
+uuid: dc800b91-0667-45b4-b77f-7870b213ba14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_individual
+    - node.type.person
+    - taxonomy.vocabulary.digitalia_muni_code_individual
+id: node.person.field_code_individual
+field_name: field_code_individual
+entity_type: node
+bundle: person
+label: 'Code (individual)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_code_individual: digitalia_muni_code_individual
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

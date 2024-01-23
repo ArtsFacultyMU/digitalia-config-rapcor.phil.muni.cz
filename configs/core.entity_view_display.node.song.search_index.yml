@@ -1,0 +1,65 @@
+uuid: 2210e508-5e1b-4167-9692-4781f56f227e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.song.field_certification
+    - field.field.node.song.field_code
+    - field.field.node.song.field_duration
+    - field.field.node.song.field_genre_prim
+    - field.field.node.song.field_genre_topic
+    - field.field.node.song.field_id
+    - field.field.node.song.field_isrc
+    - field.field.node.song.field_language
+    - field.field.node.song.field_music_item
+    - field.field.node.song.field_note
+    - field.field.node.song.field_note_revision
+    - field.field.node.song.field_note_url
+    - field.field.node.song.field_title_original
+    - field.field.node.song.field_title_originality
+    - field.field.node.song.field_year_creation
+    - field.field.node.song.field_year_publication
+    - field.field.node.song.field_year_publication_text
+    - field.field.node.song.field_year_release
+    - node.type.song
+  module:
+    - user
+id: node.song.search_index
+targetEntityType: node
+bundle: song
+mode: search_index
+content:
+  field_language:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_certification: true
+  field_code: true
+  field_duration: true
+  field_genre_prim: true
+  field_genre_topic: true
+  field_id: true
+  field_isrc: true
+  field_music_item: true
+  field_note: true
+  field_note_revision: true
+  field_note_url: true
+  field_title_original: true
+  field_title_originality: true
+  field_year_creation: true
+  field_year_publication: true
+  field_year_publication_text: true
+  field_year_release: true
+  langcode: true
+  search_api_excerpt: true

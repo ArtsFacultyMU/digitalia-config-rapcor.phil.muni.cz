@@ -1,0 +1,11 @@
+uuid: 82792ec2-b83e-4e93-bf24-395273be1981
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.song
+id: node.song
+target_entity_type_id: node
+target_bundle: song
+default_langcode: site_default
+language_alterable: false

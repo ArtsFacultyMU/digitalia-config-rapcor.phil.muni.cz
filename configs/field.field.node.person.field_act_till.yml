@@ -1,0 +1,23 @@
+uuid: ed49299a-898f-4ee1-b2f6-13c17f6fa59e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_act_till
+    - node.type.person
+id: node.person.field_act_till
+field_name: field_act_till
+entity_type: node
+bundle: person
+label: act_till
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,21 @@
+uuid: bcd6b93e-6816-47b2-91d5-ddb8f9d57631
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.music_group
+  module:
+    - user
+id: node.music_group.default
+targetEntityType: node
+bundle: music_group
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

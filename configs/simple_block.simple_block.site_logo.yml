@@ -1,0 +1,11 @@
+uuid: ee8200c8-c0a1-4db0-93a1-74215f500c40
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: site_logo
+title: 'Site logo'
+content:
+  value: '<p><a class="site-branding__logo" href="/en" rel="home"><img src="/themes/islandora_muni/platform_specific/images/logo.svg" alt="Home"></a></p>'
+  format: full_html

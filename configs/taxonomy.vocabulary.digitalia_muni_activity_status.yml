@@ -1,0 +1,8 @@
+uuid: 51c86e94-8eed-4e49-872d-6f7509045409
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Activity status'
+vid: digitalia_muni_activity_status
+description: ''
+weight: 0

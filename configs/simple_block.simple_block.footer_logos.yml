@@ -1,0 +1,11 @@
+uuid: b62704ea-1f6c-45b8-9adb-464567d0ed98
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: footer_logos
+title: 'Footer logos'
+content:
+  value: '<p><a href="https://digitalia.phil.muni.cz/o-nas/lindatclariah-cz" target="_blank"><img class="footer-icon lindat-logo" src="/themes/islandora_muni/images/LINDAT-CLARIAH-cz-small.png" alt="LINDAT CLARIAH"></a> <a href="https://ics.muni.cz/" target="_blank"><img class="footer-icon ics-logo" src="/themes/islandora_muni/images/UVT-lg-eng-rgb.png" alt="ICS MUNI"></a> <a href="https://it.muni.cz/en/cit-ff" target="_blank"><img class="footer-icon citff-logo" src="/themes/islandora_muni/images/logo-en-cit-barva.svg" alt="CIT ARTS MUNI"></a></p>'
+  format: full_html

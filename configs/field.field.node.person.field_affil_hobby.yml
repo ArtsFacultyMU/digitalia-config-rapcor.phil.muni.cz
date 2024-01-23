@@ -1,0 +1,29 @@
+uuid: f1c6da29-baee-4ba2-9e4b-abe106fca9bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_affil_hobby
+    - node.type.person
+    - taxonomy.vocabulary.digitalia_muni_hobby
+id: node.person.field_affil_hobby
+field_name: field_affil_hobby
+entity_type: node
+bundle: person
+label: affil_hobby
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_hobby: digitalia_muni_hobby
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,35 @@
+uuid: 7769bb43-1f95-4096-acb2-5bdf5c0b12d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.footer_logos
+  module:
+    - islandora
+    - simple_block
+  theme:
+    - islandora_muni
+id: islandora_muni_footerlogos
+theme: islandora_muni
+region: footer_first
+weight: 0
+provider: null
+plugin: 'simple_block:footer_logos'
+settings:
+  id: 'simple_block:footer_logos'
+  label: 'Footer logos'
+  label_display: '0'
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
+  node_has_ancestor:
+    id: node_has_ancestor
+    negate: 0
+    ancestor_nids: false
+    parent_reference_field: field_media_of
+    context_mapping:
+      node: '@node.node_route_context:node'

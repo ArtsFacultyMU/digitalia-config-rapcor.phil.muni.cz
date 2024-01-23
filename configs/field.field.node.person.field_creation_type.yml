@@ -1,0 +1,29 @@
+uuid: 5c5776c3-0942-4d39-a293-78b0d2ff7220
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_creation_type
+    - node.type.person
+    - taxonomy.vocabulary.digitalia_muni_creation_type
+id: node.person.field_creation_type
+field_name: field_creation_type
+entity_type: node
+bundle: person
+label: creation_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_creation_type: digitalia_muni_creation_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

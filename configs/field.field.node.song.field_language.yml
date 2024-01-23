@@ -1,0 +1,31 @@
+uuid: 07d166f6-6876-4a5b-8557-d201900e7666
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_language
+    - node.type.song
+    - taxonomy.vocabulary.digitalia_muni_language
+    - taxonomy.vocabulary.language
+id: node.song.field_language
+field_name: field_language
+entity_type: node
+bundle: song
+label: Language
+description: 'Language of the resource content'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_language: digitalia_muni_language
+      language: language
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: language
+field_type: entity_reference

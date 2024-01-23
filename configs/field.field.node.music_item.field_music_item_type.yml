@@ -1,0 +1,29 @@
+uuid: 43940440-9f15-42db-88bc-1877d87c0efe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_item_type
+    - node.type.music_item
+    - taxonomy.vocabulary.digitalia_muni_music_item_type
+id: node.music_item.field_music_item_type
+field_name: field_music_item_type
+entity_type: node
+bundle: music_item
+label: 'Music item type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_music_item_type: digitalia_muni_music_item_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

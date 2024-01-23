@@ -1,0 +1,58 @@
+uuid: e1b2ca66-f0a4-43e6-a3c7-9b609f3081ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_aliases
+    - node.type.person
+  module:
+    - datafield
+id: node.person.field_author_aliases
+field_name: field_author_aliases
+entity_type: node
+bundle: person
+label: author_aliases
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  field_settings:
+    name:
+      label: Name
+      list: false
+      allowed_values: ''
+      required: false
+    type:
+      label: Type
+      list: true
+      allowed_values:
+        -
+          label: 'chybný zápis'
+          value: error
+        -
+          label: pseudonym
+          value: pseudonym
+        -
+          label: varianta
+          value: variant
+      required: false
+    note:
+      label: Note
+      required: false
+    timespan_from:
+      label: Timespan_from
+      list: false
+      allowed_values: ''
+      max: null
+      min: null
+      required: false
+    timespan_till:
+      label: Timespan_till
+      list: false
+      allowed_values: ''
+      max: null
+      min: null
+      required: false
+field_type: data_field

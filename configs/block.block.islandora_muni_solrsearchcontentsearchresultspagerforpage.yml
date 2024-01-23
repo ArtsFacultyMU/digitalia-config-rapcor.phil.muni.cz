@@ -1,0 +1,31 @@
+uuid: 50b7f90d-11fc-4463-a512-a93a7197cdd3
+langcode: en
+status: true
+dependencies:
+  module:
+    - context
+    - islandora
+  theme:
+    - islandora_muni
+id: islandora_muni_solrsearchcontentsearchresultspagerforpage
+theme: islandora_muni
+region: content
+weight: -12
+provider: null
+plugin: 'advanced_search_result_pager:solr_search_content__page_1'
+settings:
+  id: 'advanced_search_result_pager:solr_search_content__page_1'
+  label: 'Solr search content: Search Results Pager for Page'
+  label_display: '0'
+  provider: advanced_search
+visibility:
+  view_inclusion:
+    id: view_inclusion
+    negate: false
+    view_inclusion:
+      view-solr_search_content-page_1: view-solr_search_content-page_1
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

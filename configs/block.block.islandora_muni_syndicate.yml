@@ -1,0 +1,23 @@
+uuid: 08a9c614-7384-4996-9f36-fc9a8177768c
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - islandora_muni
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: islandora_muni_syndicate
+theme: islandora_muni
+region: header
+weight: -2
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

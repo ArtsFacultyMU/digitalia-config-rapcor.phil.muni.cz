@@ -1,0 +1,29 @@
+uuid: 036d55cd-ffd2-4000-9934-12b4f01f554b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_affil_comm
+    - node.type.person
+    - taxonomy.vocabulary.digitalia_muni_community
+id: node.person.field_affil_comm
+field_name: field_affil_comm
+entity_type: node
+bundle: person
+label: affil_comm
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_community: digitalia_muni_community
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

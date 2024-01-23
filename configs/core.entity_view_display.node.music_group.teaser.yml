@@ -1,0 +1,22 @@
+uuid: 65ab3696-6f6e-4692-a3bf-11b42afd349a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.music_group
+  module:
+    - user
+id: node.music_group.teaser
+targetEntityType: node
+bundle: music_group
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

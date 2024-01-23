@@ -1,0 +1,23 @@
+uuid: 123ad267-7696-4892-a38d-b8e43accfdc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year_creation
+    - node.type.person
+id: node.person.field_year_creation
+field_name: field_year_creation
+entity_type: node
+bundle: person
+label: 'Year creation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,22 @@
+uuid: e0fb3c71-46f8-44f6-a566-3e5e17e2ae7a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - islandora_muni
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: islandora_muni_primary_local_tasks
+theme: islandora_muni
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

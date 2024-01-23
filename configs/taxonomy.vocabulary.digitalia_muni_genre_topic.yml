@@ -1,0 +1,8 @@
+uuid: 0a8af847-dd49-481a-90a3-1f1b0487bc4c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Genre topic'
+vid: digitalia_muni_genre_topic
+description: ''
+weight: 0

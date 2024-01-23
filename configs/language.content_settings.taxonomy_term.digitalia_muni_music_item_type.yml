@@ -1,0 +1,11 @@
+uuid: 5d954024-95a1-4882-9864-911866c992a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.digitalia_muni_music_item_type
+id: taxonomy_term.digitalia_muni_music_item_type
+target_entity_type_id: taxonomy_term
+target_bundle: digitalia_muni_music_item_type
+default_langcode: site_default
+language_alterable: false

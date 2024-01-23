@@ -1,0 +1,29 @@
+uuid: c9e200b1-855c-413b-bc50-469a5b87cc45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genre_topic
+    - node.type.song
+    - taxonomy.vocabulary.digitalia_muni_genre_topic
+id: node.song.field_genre_topic
+field_name: field_genre_topic
+entity_type: node
+bundle: song
+label: 'Genre topic'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_genre_topic: digitalia_muni_genre_topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

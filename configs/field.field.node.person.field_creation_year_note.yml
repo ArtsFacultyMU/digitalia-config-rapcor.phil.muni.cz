@@ -1,0 +1,19 @@
+uuid: 22d63711-bc65-46bf-add9-4e1872805095
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_creation_year_note
+    - node.type.person
+id: node.person.field_creation_year_note
+field_name: field_creation_year_note
+entity_type: node
+bundle: person
+label: creation_year_note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

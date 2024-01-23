@@ -1,0 +1,78 @@
+uuid: 30dc63ca-82eb-41f2-b5ee-7ccfbbbe9db5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.person.field_act_from
+    - field.field.node.person.field_act_note
+    - field.field.node.person.field_act_till
+    - field.field.node.person.field_act_till_status
+    - field.field.node.person.field_affil_comm
+    - field.field.node.person.field_affil_genre
+    - field.field.node.person.field_affil_hobby
+    - field.field.node.person.field_affil_profession
+    - field.field.node.person.field_author
+    - field.field.node.person.field_author_aliases
+    - field.field.node.person.field_author_born_given
+    - field.field.node.person.field_author_born_note
+    - field.field.node.person.field_author_born_surname
+    - field.field.node.person.field_birth_note
+    - field.field.node.person.field_code_featuring
+    - field.field.node.person.field_code_individual
+    - field.field.node.person.field_creation_type
+    - field.field.node.person.field_creation_year_note
+    - field.field.node.person.field_date_birth
+    - field.field.node.person.field_date_death
+    - field.field.node.person.field_death_note
+    - field.field.node.person.field_death_reason
+    - field.field.node.person.field_group_member
+    - field.field.node.person.field_group_note
+    - field.field.node.person.field_id
+    - field.field.node.person.field_sex
+    - field.field.node.person.field_viaf
+    - field.field.node.person.field_year_creation
+    - node.type.person
+  module:
+    - user
+id: node.person.teaser
+targetEntityType: node
+bundle: person
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_act_from: true
+  field_act_note: true
+  field_act_till: true
+  field_act_till_status: true
+  field_affil_comm: true
+  field_affil_genre: true
+  field_affil_hobby: true
+  field_affil_profession: true
+  field_author: true
+  field_author_aliases: true
+  field_author_born_given: true
+  field_author_born_note: true
+  field_author_born_surname: true
+  field_birth_note: true
+  field_code_featuring: true
+  field_code_individual: true
+  field_creation_type: true
+  field_creation_year_note: true
+  field_date_birth: true
+  field_date_death: true
+  field_death_note: true
+  field_death_reason: true
+  field_group_member: true
+  field_group_note: true
+  field_id: true
+  field_sex: true
+  field_viaf: true
+  field_year_creation: true
+  langcode: true
+  search_api_excerpt: true

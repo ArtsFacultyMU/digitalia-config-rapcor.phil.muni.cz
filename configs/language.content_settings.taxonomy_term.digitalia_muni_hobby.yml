@@ -1,0 +1,11 @@
+uuid: 54b9a9cb-151b-4a0f-a538-d5a1dc2db19e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.digitalia_muni_hobby
+id: taxonomy_term.digitalia_muni_hobby
+target_entity_type_id: taxonomy_term
+target_bundle: digitalia_muni_hobby
+default_langcode: site_default
+language_alterable: false

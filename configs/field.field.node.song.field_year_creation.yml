@@ -1,0 +1,23 @@
+uuid: 6d2018ac-27aa-4fe6-a522-8cf202f4e5d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year_creation
+    - node.type.song
+id: node.song.field_year_creation
+field_name: field_year_creation
+entity_type: node
+bundle: song
+label: 'Year creation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

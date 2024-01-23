@@ -1,0 +1,8 @@
+uuid: 0b924b9c-1e89-4a9a-9467-3463df0b3c5b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Group member type'
+vid: digitalia_muni_group_member_type
+description: ''
+weight: 0

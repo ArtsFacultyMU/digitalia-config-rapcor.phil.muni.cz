@@ -1,0 +1,8 @@
+uuid: fb98a1fa-b537-499a-a7aa-57c623540a90
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Code individual'
+vid: digitalia_muni_code_individual
+description: ''
+weight: 0

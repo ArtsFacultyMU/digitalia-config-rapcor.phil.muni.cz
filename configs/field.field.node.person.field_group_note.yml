@@ -1,0 +1,19 @@
+uuid: 6d2550d8-0da6-4523-874d-6759622c93d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_note
+    - node.type.person
+id: node.person.field_group_note
+field_name: field_group_note
+entity_type: node
+bundle: person
+label: group_note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

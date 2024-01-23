@@ -1,0 +1,8 @@
+uuid: 6f07b6e4-f9d1-40db-ac4d-6eeb04e84d87
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Profession'
+vid: digitalia_muni_profession
+description: ''
+weight: 0

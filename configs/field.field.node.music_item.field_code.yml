@@ -1,0 +1,19 @@
+uuid: e1cddf73-c7b3-4add-b675-0cf21b603ab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code
+    - node.type.music_item
+id: node.music_item.field_code
+field_name: field_code
+entity_type: node
+bundle: music_item
+label: Code
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

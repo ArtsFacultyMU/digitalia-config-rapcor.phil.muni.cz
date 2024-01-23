@@ -1,0 +1,23 @@
+uuid: 210f92a1-6954-4daa-becf-d5df5e7fdcfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year_release
+    - node.type.song
+id: node.song.field_year_release
+field_name: field_year_release
+entity_type: node
+bundle: song
+label: 'Year release'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

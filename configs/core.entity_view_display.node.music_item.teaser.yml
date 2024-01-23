@@ -1,0 +1,30 @@
+uuid: 2aeb0017-aea3-495f-8c6d-e582bfe616f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.music_item.field_code
+    - field.field.node.music_item.field_id
+    - field.field.node.music_item.field_music_item_type
+    - field.field.node.music_item.field_subtitle
+    - node.type.music_item
+  module:
+    - user
+id: node.music_item.teaser
+targetEntityType: node
+bundle: music_item
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_code: true
+  field_id: true
+  field_music_item_type: true
+  field_subtitle: true
+  langcode: true
+  search_api_excerpt: true

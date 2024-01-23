@@ -1,0 +1,29 @@
+uuid: 714498dd-bec8-4d8c-a9c1-73871ebbf02c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_affil_genre
+    - node.type.person
+    - taxonomy.vocabulary.digitalia_muni_genre
+id: node.person.field_affil_genre
+field_name: field_affil_genre
+entity_type: node
+bundle: person
+label: affil_genre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_genre: digitalia_muni_genre
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

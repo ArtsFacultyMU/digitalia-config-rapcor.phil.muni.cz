@@ -1,0 +1,376 @@
+uuid: 94f96e3c-5a80-46e9-93e4-b8786848fbd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_act_from
+    - field.field.node.person.field_act_note
+    - field.field.node.person.field_act_till
+    - field.field.node.person.field_act_till_status
+    - field.field.node.person.field_affil_comm
+    - field.field.node.person.field_affil_genre
+    - field.field.node.person.field_affil_hobby
+    - field.field.node.person.field_affil_profession
+    - field.field.node.person.field_author
+    - field.field.node.person.field_author_aliases
+    - field.field.node.person.field_author_born_given
+    - field.field.node.person.field_author_born_note
+    - field.field.node.person.field_author_born_surname
+    - field.field.node.person.field_birth_note
+    - field.field.node.person.field_code_featuring
+    - field.field.node.person.field_code_individual
+    - field.field.node.person.field_creation_type
+    - field.field.node.person.field_creation_year_note
+    - field.field.node.person.field_date_birth
+    - field.field.node.person.field_date_death
+    - field.field.node.person.field_death_note
+    - field.field.node.person.field_death_reason
+    - field.field.node.person.field_group_member
+    - field.field.node.person.field_group_note
+    - field.field.node.person.field_id
+    - field.field.node.person.field_sex
+    - field.field.node.person.field_viaf
+    - field.field.node.person.field_year_creation
+    - node.type.person
+  module:
+    - datafield
+    - datetime
+    - path
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_act_from:
+    type: number
+    weight: 129
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_act_note:
+    type: string_textarea
+    weight: 131
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_act_till:
+    type: number
+    weight: 130
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_act_till_status:
+    type: entity_reference_autocomplete
+    weight: 132
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_affil_comm:
+    type: entity_reference_autocomplete
+    weight: 128
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_affil_genre:
+    type: entity_reference_autocomplete
+    weight: 125
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_affil_hobby:
+    type: entity_reference_autocomplete
+    weight: 127
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_affil_profession:
+    type: entity_reference_autocomplete
+    weight: 126
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_author:
+    type: string_textfield
+    weight: 142
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_author_aliases:
+    type: data_field_table_widget
+    weight: 143
+    region: content
+    settings:
+      inline: false
+      widget_settings:
+        name:
+          type: textfield
+          label_display: ''
+          size: 30
+          placeholder: 'Please type'
+          field_display: '1'
+          weight: 0
+          col: ''
+        type:
+          type: select
+          label_display: ''
+          field_display: '1'
+          weight: 0
+          col: ''
+        note:
+          type: textarea
+          label_display: ''
+          placeholder: 'Please type'
+          field_display: '1'
+          weight: 0
+          cols: 10
+          rows: 2
+          col: ''
+        timespan_from:
+          type: number
+          label_display: ''
+          size: 30
+          placeholder: 'Please type'
+          field_display: '1'
+          weight: 0
+          step: '2'
+          col: ''
+        timespan_till:
+          type: number
+          label_display: ''
+          size: 30
+          placeholder: 'Please type'
+          field_display: '1'
+          weight: 0
+          step: '2'
+          col: ''
+      operation: 0
+    third_party_settings: {  }
+  field_author_born_given:
+    type: string_textfield
+    weight: 133
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_author_born_note:
+    type: string_textarea
+    weight: 135
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_author_born_surname:
+    type: string_textfield
+    weight: 134
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_birth_note:
+    type: string_textarea
+    weight: 139
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_code_featuring:
+    type: entity_reference_autocomplete
+    weight: 124
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_code_individual:
+    type: entity_reference_autocomplete
+    weight: 123
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_creation_type:
+    type: entity_reference_autocomplete
+    weight: 147
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_creation_year_note:
+    type: string_textarea
+    weight: 146
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_date_birth:
+    type: datetime_default
+    weight: 137
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date_death:
+    type: datetime_default
+    weight: 138
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_death_note:
+    type: string_textarea
+    weight: 141
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_death_reason:
+    type: string_textarea
+    weight: 140
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_group_member:
+    type: data_field_table_widget
+    weight: 144
+    region: content
+    settings:
+      inline: false
+      widget_settings: {  }
+      operation: false
+    third_party_settings: {  }
+  field_group_note:
+    type: string_textarea
+    weight: 145
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_id:
+    type: string_textfield
+    weight: 121
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_sex:
+    type: options_select
+    weight: 136
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_viaf:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_year_creation:
+    type: number
+    weight: 126
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

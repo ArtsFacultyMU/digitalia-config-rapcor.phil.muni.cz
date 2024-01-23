@@ -1,0 +1,11 @@
+uuid: cd342844-135e-4eec-ba65-a468ea590f41
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.digitalia_muni_creation_type
+id: taxonomy_term.digitalia_muni_creation_type
+target_entity_type_id: taxonomy_term
+target_bundle: digitalia_muni_creation_type
+default_langcode: site_default
+language_alterable: false

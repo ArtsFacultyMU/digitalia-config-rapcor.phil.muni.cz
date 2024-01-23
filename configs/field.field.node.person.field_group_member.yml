@@ -1,0 +1,46 @@
+uuid: 96282b0b-e7cb-4b65-ad99-2b44f5176b54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_member
+    - node.type.person
+  module:
+    - datafield
+id: node.person.field_group_member
+field_name: field_group_member
+entity_type: node
+bundle: person
+label: 'Group member'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  field_settings:
+    group:
+      label: Group
+      required: false
+      entity_reference_type: node
+      target_bundles: music_group
+    group_member_timespan_from:
+      label: Group_member_timespan_from
+      list: false
+      allowed_values: ''
+      max: null
+      min: null
+      required: false
+    group_member_timespan_till:
+      label: Group_member_timespan_till
+      list: false
+      allowed_values: ''
+      max: null
+      min: null
+      required: false
+    group_member_type:
+      label: Group_member_type
+      required: false
+      entity_reference_type: taxonomy_term
+      target_bundles: digitalia_muni_group_member_type
+field_type: data_field

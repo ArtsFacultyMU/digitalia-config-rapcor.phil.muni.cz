@@ -1,0 +1,19 @@
+uuid: 8bc0e037-15fe-4766-a4f3-5749af0523bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_act_note
+    - node.type.person
+id: node.person.field_act_note
+field_name: field_act_note
+entity_type: node
+bundle: person
+label: act_note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

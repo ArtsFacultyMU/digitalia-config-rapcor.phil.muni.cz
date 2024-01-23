@@ -1,0 +1,19 @@
+uuid: 98dcb868-8044-4d8b-b1a0-5edb7303e478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_born_given
+    - node.type.person
+id: node.person.field_author_born_given
+field_name: field_author_born_given
+entity_type: node
+bundle: person
+label: author_born_given
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

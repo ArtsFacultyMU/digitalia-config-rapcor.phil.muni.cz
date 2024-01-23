@@ -1,0 +1,23 @@
+uuid: 4f513c8d-46d4-4030-842b-0cf45d3176bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year_publication
+    - node.type.song
+id: node.song.field_year_publication
+field_name: field_year_publication
+entity_type: node
+bundle: song
+label: 'Year publication'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

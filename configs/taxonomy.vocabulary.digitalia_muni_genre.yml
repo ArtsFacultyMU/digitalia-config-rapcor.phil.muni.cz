@@ -1,0 +1,8 @@
+uuid: 6949a125-0718-4da2-8421-d836b834ceaa
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Genre'
+vid: digitalia_muni_genre
+description: ''
+weight: 0
